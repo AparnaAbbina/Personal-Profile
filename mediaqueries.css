@@ -34,9 +34,10 @@
         margin : 0 5%;
     }
     .section_pic-container{
-        width:275px;
-        height: 46vw;
+        width: auto;
+        height:46vw;
         justify-content: center;
+        padding-top: 50px;
     }
     .about-containers{
         margin-top:0;
@@ -44,16 +45,32 @@
 }
 
 @media screen and (max-width:600px){
-    #contact,
+    #contact{
+        height: 85vh;
+    }
     footer{
-        height: 40vh;
+        height: 10vh;
     }
     #profile{
-        height : 80vh;
+        height : 75vh;
         justify-content: center;
         align-items: center;
         margin-bottom : 0;
     }
+    #about,#experience,#projects{
+        height :auto;
+    }
+    .section_text, .about-details-container { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+   
+    .section_text{
+        padding-top: 60px;
+    }
+
     article{
         font-size:1rem;
     }
@@ -87,9 +104,10 @@
         width: auto;
         height:46vw;
         justify-content: center;
+        padding-top: 50px;
     }
     .section_text_p2{
-        font-size: 1.25rem;
+        font-size: 1.5rem;
     }
     .title{
         font-size: 2rem;
