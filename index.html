@@ -6,22 +6,25 @@
     <title>My Protfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav id="desktop-nav">
-        <div class="logo"><a href="#profile" onclick="toggleMenu()" style="text-decoration: none;"><span class="title-text">Aparna</span></a></div>
+        <div class="logo"><a href="#profile" onclick="toggleMenu()" style="text-decoration: none;"><span class="logofont">Aparna</span></a></div>
         <div>
             <ul class="nav-links">
                 <li><a href="#profile"><span class="title-text">Home</span></a></li>
                 <li><a href="#about"><span class="title-text">About</span></a></li>
-                <li><a href="#experience"><span class="title-text">Experience</span></a></li>
+                <li><a href="#experience"><span class="title-text">Skills</span></a></li>
                 <li><a href="#projects"><span class="title-text">Projects</span></a></li>
                 <li><a href="#contact"><span class="title-text">Contact</span></a></li>
             </ul>
         </div>    
     </nav>
     <nav id="hamburger-nav">
-        <div class="logo"><span class="title-text">Aparna</span></div>
+        <div class="logo"><a href="#profile" onclick="event.stopPropagation();" style="text-decoration: none;"><span class="logofont">Aparna</span></a></div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
@@ -31,7 +34,7 @@
             <div class="menu-links">
                 <li><a href="#profile" onclick="toggleMenu()">Home</a></li>
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
@@ -113,7 +116,7 @@
     </section>
     <section id="experience">
         <p class="section_text_p1">Explore My</p>
-        <h1 class="title">Experience</h1>
+        <h1 class="title">Skills</h1>
         <div class="experience-details-container">
             <div class="cards">
                 <div class="card red">
@@ -197,44 +200,44 @@
                       <div class="cardHeader">
                         <p class="headerText">Fauna green living</p>
                         <div class="btn-container">
-                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/SchoolOfCode/bc16-w3-d4-hackathon-fetch-week3-room8.git'">Github</button>
-                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://schoolofcode.github.io/bc16-w3-d4-hackathon-fetch-week3-room8/'">Live Demo</button>
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.faunagreenliving.com/'">Live Demo</button>
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/oscaroneim/fauna-green-living'">Github</button>
                         </div>
                       </div>
                       <div class="cardText">
-                        Welcome to this card where I have made use of the "Hover" effect to add some really cool interactions to it. Enjoy
+                        Fauna Green Living: A Sustainable E-commerce Website designed in Next.js, TypeScript, and Shopify CMS Integration
                       </div>
-                      <div class="button">Learn More</div>
+                      <div class="button"></div>
                     </div>
                </div>
-               <div class="Projectcard" style="background-image: url('assets/Aparnagarden1.png');">
-                    <div class="details">
+               <div class="Projectcard" style="background-image: url('assets/aparna-garden.png');">
+                    <div class="details" style="background-color: rgb(216, 139, 44);">
                     <div class="cardHeader">
-                        <p class="headerText">Aparna Petal Palace</p>
+                        <p class="headerText">Aparna's Petal Palace</p>
                         <div class="btn-container">
-                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/SchoolOfCode/bc16-w3-d4-hackathon-fetch-week3-room8.git'">Github</button>
-                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://schoolofcode.github.io/bc16-w3-d4-hackathon-fetch-week3-room8/'">Live Demo</button>
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/AparnaAbbina/my-garden-cente'">Live Demo</button>
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/AparnaAbbina/my-garden-center'">Github</button>
                         </div>
                     </div>
                     <div class="cardText">
-                        Welcome to this card where I have made use of the "Hover" effect to add some really cool interactions to it. Enjoy
+                        Aparna's Petal Palace: Showcasing Plants and Pots Collection designed in Next.js, TypeScript, and Tailwind CSS
                     </div>
-                    <div class="button">Learn More</div>
+                    <div class="button"></div>
                     </div>
                </div>
                <div class="Projectcard" style="background-image: url('assets/Weatherapp.png');">
-                    <div class="details">
+                    <div class="details" style="background-color: rgb(216, 139, 44);">
                     <div class="cardHeader">
                         <p class="headerText">Weather App</p>
                         <div class="btn-container">
-                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/SchoolOfCode/bc16-w3-d4-hackathon-fetch-week3-room8.git'">Github</button>
                             <button class="btn btn-color-2 project-btn" onclick="location.href='https://schoolofcode.github.io/bc16-w3-d4-hackathon-fetch-week3-room8/'">Live Demo</button>
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/SchoolOfCode/bc16-w3-d4-hackathon-fetch-week3-room8.git'">Github</button>
                         </div>
                     </div>
                     <div class="cardText">
-                        Welcome to this card where I have made use of the "Hover" effect to add some really cool interactions to it. Enjoy
+                        Weather App: To showcase the current weather of selected locations and still working to upgrade features
                     </div>
-                    <div class="button">Learn More</div>
+                    <div class="button"></div>
                     </div>
                </div>
            </div>
