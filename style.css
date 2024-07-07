@@ -734,12 +734,12 @@ footer p {
   
   .cardHeader::after {
     content: "";
-    width: calc(100% + 1rem);
+    width: 100%;
     height: 2.5px;
     transform: translateX(calc(-100% - 1rem));
-    background: aqua;
+    background: rgb(53, 50, 52);
     bottom: -2px;
-    left: 0;
+    left: 15px;
     position: absolute;
     opacity: 0;
   }
@@ -748,6 +748,7 @@ footer p {
     z-index: 2;
     display: flex;
     flex-direction: column;
+    border-radius: 15px;
     gap: 5px;
     transform: translateY(calc(100% - 4rem)); /* Adjust to position at bottom */
     transition: all 0.5s ease;
